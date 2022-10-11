@@ -277,7 +277,6 @@ body {
     border-radius: 6px;
     margin-top: 36px;
     font-weight: 600;
-    /* color: rgba(0, 0, 0, 0.8); */
     color: white;
     transition: all 0.3s ease;
 }
@@ -287,16 +286,12 @@ body {
     box-shadow: 0 0 14px #009687a8;
 }
 
-
-/* ------------------------------------------------------------------------------------------------------------------ */
-
 #order-placed-section {
     display: flex;
     margin-top: 100px;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* justify-content: center; */
 }
 
 #order-placed-section i {
@@ -306,17 +301,13 @@ body {
     padding: 0%;
     overflow: hidden;
     position: relative;
-    /* border: 1px solid red; */
     color: rgb(105, 212, 105);
 }
 
 #click-animation {
-    /* width: 55%; */
     animation: process_success 1.5s 2;
     height: 55%;
     position: absolute;
-    /* padding:10px; */
-    /* left: 50%; */
     right: 10%;
     top: 50%;
     transform: translate(-5%, -50%);
@@ -341,26 +332,13 @@ body {
     }
 }
 
-
-/* ------------------------------------------------------------------------------------------------------------------ */
-
-
-/*      HOME  PORTAL  */
-
 main {
     width: 100%;
     min-height: 80vh;
     box-sizing: border-box;
-    /*     margin-top: 100px; */
-    /* border: 2px solid red; */
     padding-bottom: 8%;
 }
-
-
-/* ------------------------------------------------------------------------------------------------------------------ */
-
 .sectionMargin {
-    /* margin-top: 100px; */
     padding: 4% 8% 0 8%;
 }
 
@@ -377,17 +355,9 @@ main {
     padding: 16px;
 }
 
-
-/* ------------------------------------------------------------------------------------------------------------------ */
-
-
-/*      PRODUCT VIEW PORTAL  */
-
 #section-wraper {
     display: flex;
-    /* border: 1px solid black; */
     max-width: 1200px;
-    /* margin: 0 auto; */
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -403,7 +373,6 @@ main {
 }
 
 .right-side-wrapper {
-    /* border: 1px solid black; */
     width: 100%;
     padding-left: 30px;
 }
@@ -510,17 +479,11 @@ main {
     transform: scale(1.2);
     box-shadow: 0 2px 10px rgb(0 0 0 / 70%);
 }
-
-
-/* ------------------------------------------------------------------------------------------------------------------ */
-
-
 footer {
     width: 100%;
     background-color: #1c1b1e;
     display: flex;
     justify-content: space-evenly;
-    /* box-sizing: border-box; */
     padding: 4% 8%;
 }
 
